@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(244, 246, 254);
+}
+
+.mainContainer {
+  margin: 20px auto;
+  width: 80%;
+}
+.mainContainer .btn {
+  background-color: rgb(51, 94, 234);
+  padding: 0 20px;
+  transition: 0.5s ease-out;
+}
+.mainContainer .btn:hover {
+  transform: translateY(-5%);
+  box-shadow: 0 5px grey 10px;
+}
+.mainContainer .topMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.mainContainer .topMenu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.mainContainer .topMenu ul a {
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+}
+.mainContainer .topMenu ul .nav-link:hover {
+  color: rgb(51, 94, 234);
+}/*# sourceMappingURL=projektas.css.map */
